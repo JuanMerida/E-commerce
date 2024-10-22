@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
 import { ThemeProvider } from './contexts/ThemeContext';
-import HomePage from './pages/HomePage'; // Pantalla principal
+import HomePage from './pages/HomePage'; 
 
 function App() {
   return (
-    <ThemeProvider>
+        <ThemeProvider>
       <HomePage />
     </ThemeProvider>
   );

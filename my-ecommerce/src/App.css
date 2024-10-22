@@ -1,7 +1,5 @@
 /* src/App.css */
-body {
-  font-family: Arial, sans-serif;
-}
+
 
 .light {
   background-color: white;
@@ -23,4 +21,45 @@ body {
   padding: 10px;
   margin: 10px;
   width: 150px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;    
+  
+ }
+
+ html, body, #root {
+  height: 100%;
+}
+
+div.App {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  min-height: 100vh;        
+  width: 100%;               
+  flex-direction: column;    
+  background-color: #fff;    
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  flex-wrap: wrap;          
+  width: 100%;              
+ 
+  box-sizing: border-box;
+}
+
+.product-item {
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  
 }
